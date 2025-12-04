@@ -1,0 +1,3 @@
+1;Vlad;Marusiak;HEAD_COACH
+2;Vasyl;Kosovan;ASSISTANT_COACH
+3;Ruslan;Biloskurskyi;FITNESS_COACH
