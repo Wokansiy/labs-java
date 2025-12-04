@@ -1,0 +1,1 @@
+package ua.app; import ua.model.*; import ua.exception.*; import ua.util.*; import java.util.logging.*; public class Tests{ private static final Logger LOG=LogUtil.createLogger(Tests.class); public static void main(String[]a){ try{Player.fromCsv("1;Vlad;Marusiak;19");LOG.info("OK");}catch(Exception e){LOG.warning("FAIL");}}}
