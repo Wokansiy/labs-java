@@ -1,1 +1,0 @@
-package ua.util; import java.util.logging.*; public final class LogUtil{ private LogUtil(){} public static Logger createLogger(Class<?> c){ Logger l=Logger.getLogger(c.getName()); l.setUseParentHandlers(false); if(l.getHandlers().length==0){ ConsoleHandler h=new ConsoleHandler(); h.setLevel(Level.ALL); l.addHandler(h);} l.setLevel(Level.ALL); return l; }}

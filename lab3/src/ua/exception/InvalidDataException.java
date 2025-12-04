@@ -1,1 +1,0 @@
-package ua.exception; public class InvalidDataException extends Exception{ public InvalidDataException(String m){super(m);} public InvalidDataException(String m,Throwable c){super(m,c);} }
